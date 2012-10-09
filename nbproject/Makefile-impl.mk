@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=Colossal Cave Adventure
+PROJECTNAME=CCAdvent
 
 # Active Configuration
 DEFAULTCONF=Debug
