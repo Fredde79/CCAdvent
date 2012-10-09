@@ -61,11 +61,11 @@ LDLIBSOPTIONS=
 
 # Build Targets
 .build-conf: ${BUILD_SUBPROJECTS}
-	"${MAKE}"  -f nbproject/Makefile-${CND_CONF}.mk ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/colossal_cave_adventure
+	"${MAKE}"  -f nbproject/Makefile-${CND_CONF}.mk ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/ccadvent
 
-${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/colossal_cave_adventure: ${OBJECTFILES}
+${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/ccadvent: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
-	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/colossal_cave_adventure ${OBJECTFILES} ${LDLIBSOPTIONS} 
+	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/ccadvent ${OBJECTFILES} ${LDLIBSOPTIONS} 
 
 ${OBJECTDIR}/Object_desc.o: Object_desc.cpp 
 	${MKDIR} -p ${OBJECTDIR}
@@ -108,7 +108,7 @@ ${OBJECTDIR}/Data.o: Data.cpp
 # Clean Targets
 .clean-conf: ${CLEAN_SUBPROJECTS}
 	${RM} -r ${CND_BUILDDIR}/${CND_CONF}
-	${RM} ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/colossal_cave_adventure
+	${RM} ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/ccadvent
 
 # Subprojects
 .clean-subprojects:

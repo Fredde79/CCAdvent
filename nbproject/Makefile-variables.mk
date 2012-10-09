@@ -9,11 +9,11 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=GNU-MacOSX
 CND_ARTIFACT_DIR_Debug=dist/Debug/GNU-MacOSX
-CND_ARTIFACT_NAME_Debug=colossal_cave_adventure
-CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-MacOSX/colossal_cave_adventure
+CND_ARTIFACT_NAME_Debug=ccadvent
+CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-MacOSX/ccadvent
 CND_PACKAGE_DIR_Debug=dist/Debug/GNU-MacOSX/package
-CND_PACKAGE_NAME_Debug=colossalcaveadventure.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/GNU-MacOSX/package/colossalcaveadventure.tar
+CND_PACKAGE_NAME_Debug=ccadvent.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/GNU-MacOSX/package/ccadvent.tar
 # Release configuration
 CND_PLATFORM_Release=GNU-Linux-x86
 CND_ARTIFACT_DIR_Release=dist/Release/GNU-Linux-x86
